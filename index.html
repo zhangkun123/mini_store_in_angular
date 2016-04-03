@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app='orderApp'>
+<head>
+	<title>Orders | Store</title>
+	<link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<script type="text/javascript" src='https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js'></script>
+	<script type="text/javascript" src='https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular-route.min.js'></script>
+	<script type="text/javascript" src='/server.js'></script>
+	<script type="text/javascript" src='/js/controllers/customers.js'></script>
+	<script type="text/javascript" src='/js/controllers/orders.js'></script>
+	<script type="text/javascript" src='/js/factories/customers.js'></script>
+	<script type="text/javascript" src='/js/factories/orders.js'></script>
+</head>
+<body>
+	<div class='container'>
+
+		<div ng-view=''>
+		</div>
+
+	</div>
+</body>
+</html>

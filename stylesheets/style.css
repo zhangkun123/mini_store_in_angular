@@ -1,0 +1,13 @@
+.error {
+	color: red;
+	display: inline-block;
+	vertical-align: top;
+	margin: 27px 75px;
+}
+form {
+	display: inline-block;
+	margin: 25px 35px 10px -15px;
+}
+#search {
+	margin-left: 85%
+}
